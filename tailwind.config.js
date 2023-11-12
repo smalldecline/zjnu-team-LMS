@@ -5,8 +5,14 @@ export default {
     extend: {
       colors: {
         primary: '#3CB371',
+        secondary: '#90EE90',
+        background: '#F5F5F5',
       },
     },
   },
   plugins: [],
+  corePlugins: {
+    preflight: false,
+  },
+  important: 'body',
 }
